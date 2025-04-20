@@ -1,0 +1,4 @@
+# Format: login,hashed_password,role
+admin,$2a$11$Dmw3oi8cZIvUw3IaD2sNmO6I5O7TtqbgkanpTEgtc5/6QBXdjZOj.,Admin
+zielarz,$2y$10$KgWJcjJ9YCirbRTaljx6eOljMKFa//TPHgWVnTjwMbX51Xm2wyfsC,Herbalist
+kajetan52@example.net,$2y$10$ohgLwFKMyVNsP7mCIyA0euEoHHdApYtx4yt.X3XitB2BEMftgxRkG,Client
