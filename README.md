@@ -2,6 +2,8 @@
 
 Prosta aplikacja konsolowa w C# (.NET 8) do zarządzania sklepem zielarskim "Zielarnia". Projekt demonstruje podstawy OOP, obsługę bazy danych MariaDB oraz system logowania oparty na rolach.
 
+**W repozytorium znajduje się również obszerna dokumentacja projektu.**
+
 ## Kluczowe Funkcjonalności
 
 * Logowanie użytkowników w oparciu o plik `users.txt` (hasła hashowane BCrypt).
