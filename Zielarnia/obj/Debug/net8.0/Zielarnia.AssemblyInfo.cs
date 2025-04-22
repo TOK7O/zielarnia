@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zielarnia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bef7c8b526964c4dd554d400dd068f7105e0f5f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16e358bef033e8e597b5c897373a524975a41575")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zielarnia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zielarnia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

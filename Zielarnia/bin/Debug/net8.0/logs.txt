@@ -1,0 +1,38 @@
+﻿2025-04-22 13:26:03.461 [ERROR] Application startup failed due to database connection error. | L0 Exception: InvalidOperationException: Failed to connect to the database.
+ | StackTrace:    at Zielarnia.Data.Services.DatabaseService.TestConnectionAsync() in C:\Users\dawid\Documents\zielarnia\Zielarnia\Data\Services\DatabaseService.cs:line 35
+   at Zielarnia.Program.Main(String[] args) in C:\Users\dawid\Documents\zielarnia\Zielarnia\Program.cs:line 53 ---> Inner Exception:
+ | L1 Exception: MySqlException: Unable to connect to any of the specified MySQL hosts.
+ | StackTrace:    at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 439
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at Zielarnia.Data.Services.DatabaseService.TestConnectionAsync() in C:\Users\dawid\Documents\zielarnia\Zielarnia\Data\Services\DatabaseService.cs:line 31
+2025-04-22 13:26:03.497 [INFO] Application shutting down.
+2025-04-22 13:27:03.860 [ERROR] Application startup failed due to database connection error. | L0 Exception: InvalidOperationException: Failed to connect to the database.
+ | StackTrace:    at Zielarnia.Data.Services.DatabaseService.TestConnectionAsync() in C:\Users\dawid\Documents\zielarnia\Zielarnia\Data\Services\DatabaseService.cs:line 35
+   at Zielarnia.Program.Main(String[] args) in C:\Users\dawid\Documents\zielarnia\Zielarnia\Program.cs:line 53 ---> Inner Exception:
+ | L1 Exception: MySqlException: Unable to connect to any of the specified MySQL hosts.
+ | StackTrace:    at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 439
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at Zielarnia.Data.Services.DatabaseService.TestConnectionAsync() in C:\Users\dawid\Documents\zielarnia\Zielarnia\Data\Services\DatabaseService.cs:line 31
+2025-04-22 13:27:03.872 [INFO] Application shutting down.
+2025-04-22 13:27:43.651 [INFO] Application started successfully.
+2025-04-22 13:27:46.795 [INFO] Login attempt recorded for user: 'admin'. Timestamp: 2025-04-22T11:27:46.7926497Z
+2025-04-22 13:27:47.019 [INFO] Event Handler: User 'admin' login confirmed. Role assigned. Details: Logged in as Admin
+2025-04-22 13:27:47.020 [INFO] User 'admin' logged in successfully as Admin.
+2025-04-22 13:27:48.817 [INFO] User 'admin' chose menu option: 1 (Role: Admin)
+2025-04-22 13:27:48.822 [INFO] User 'admin' executing: ShowAllProducts
+2025-04-22 13:27:50.508 [INFO] User 'admin' chose menu option: 13 (Role: Admin)
+2025-04-22 13:27:50.511 [INFO] User 'admin' executing: ManageOrders
+2025-04-22 13:27:51.361 [INFO] User 'admin' list orders by status: Nowe,W_trakcie
+2025-04-22 13:27:55.258 [INFO] User 'admin' chose menu option: 0 (Role: Admin)
+2025-04-22 13:27:55.259 [INFO] User 'admin' logged out.
+2025-04-22 13:27:55.259 [INFO] Application shutting down.
