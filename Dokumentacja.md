@@ -35,7 +35,6 @@ Zielarnia/ (Folder główny projektu, zawiera plik .sln)
     ├── Program.cs              # Główny punkt wejścia aplikacji, inicjalizacja
     ├── appsettings.json        # Plik konfiguracyjny (połączenie DB, ścieżki plików)
     ├── users.txt               # Plik z danymi logowania użytkowników (tworzony ręcznie)
-    ├── logs.txt                # Plik logów aplikacji (tworzony automatycznie)
     ├── baza.sql                # Skrypt SQL do utworzenia struktury bazy danych i danych startowych
     │
     ├── Core/                   # Rdzeń logiki biznesowej
